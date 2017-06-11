@@ -1,0 +1,146 @@
+.toggle_menu {
+  position: fixed;
+  padding:15px 20px 15px 15px;
+  margin-top: 70px;
+  color:#AEBED5;
+  cursor:pointer;
+  z-index: 10000000;
+  font-size: 2em;
+  opacity:0;
+}
+
+.sideBar {
+  position:fixed;
+  width:280px;
+  margin-left:0px;
+  overflow:hidden;
+  height: 100%;
+  max-height:100%;
+  background-color:rgba(17, 17, 17, 0.8);
+  opacity:0.9;
+  transition: all 0.3s ease-in-out;
+}
+.fa-times {
+  right:10px;
+  top: 10px;
+  opacity:0.6;
+  background-color:#AEBED5;
+  cursor:pointer;
+  position:absolute;
+  color:white;
+  transition: all 0.3s ease-in-out;
+}
+.fa-times:hover {
+  opacity:1;
+}
+.boxed {
+  font-family: helvetica times serif;
+  font-weight: 200;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size:2.3em;
+  display: inline-block;
+  border: 2px solid white;
+  text-align: center;
+  margin-top:70px;
+  margin-left:13px;
+
+}
+.logo {
+  font-weight: 800;
+}
+h1 {
+  color:#6475B9;
+
+}
+h3 {
+  text-align: center;
+  color:#DBE1F8;
+  font-family: javacom;
+  font-weight: 200;
+  font-size:1em;
+  padding:5px 0;
+  margin: -25px;
+}
+@font-face {
+  font-family: "javacom";
+  src:url('javacom/javacom.otf');
+}
+.navList {
+  margin:20px 0;
+  display: block;
+  width:200px;
+  margin-left: 10px;
+  padding:20px 20px;
+
+}
+.navItem {
+  font-weight: 200px;
+  font-family: helvetica times serif;
+  color:#6F87C4;
+  padding: 15px 0;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  border-bottom: solid 1px #D8D8D8;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  list-style-type: none;
+
+}
+.navItem:hover {
+  color:#111;
+  transition: all 0.4s ease-in-out;
+}
+.boxed_item_smaller {
+  font-size: 1.2em;
+  color:#DBE1F8;
+  width:180px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  border-width: 1px;
+  margin: 5px 40px;;
+  text-align: center;
+}
+h2 {
+  font-size: 5em;
+  font-weight:200;
+  font-family: helvetica times serif;
+  text-align: center;
+  color: #BECEF7;
+  margin: 0 auto;
+  text-shadow: 2px 2px lightgrey;
+}
+img {
+  width:40px;
+  height:40px;
+  margin:20px;
+  border-radius:10px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  position:relative;
+  box-shadow:2px 2px lightgrey;
+}
+img:hover {
+  background-color: pink;
+  color:#111;
+  transition: all 0.3s ease-in-out;
+
+}
+
+body{
+  background-image:url("img/mountain.jpg");
+  background-size:cover;
+}
+.boxed_item_smaller:hover{
+  background-color: white;
+  color:#111;
+  transition: all 0.3s ease-in-out;
+}
+.hide_menu {
+  margin-left: -280px;
+
+}
+.opacity_one {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}

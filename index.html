@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body ng-app="myApp">
 
     <div class="container">
       <i class= "fa fa-bars toggle_menu"></i>
@@ -15,10 +15,9 @@
             <h1 class=" boxed boxed_item">ALEX<span class="logo">PHAM</span></h1>
             <h3>Front-End Web Developer</h3>
             <ul class="navList">
-              <li class="navItem">PROFILE</li>
-              <li class="navItem">EDUCATION</li>
-              <li class="navItem">SKILLS</li>
-              <li class="navItem">INTERESTS</li>
+              <li class="navItem"><a href="#!/index.html">PROFILE</a></li>
+              <li class="navItem"><a href="#!/skills.html">SKILLS</a></li>
+              <li class="navItem"><a href="#!/interests.html">INTERESTS</a></li>
             </ul>
         <div class= "sign">
           <a href="mailto:Alexpham688@gmail.com"><h1 class="boxed boxed_item_smaller">
@@ -31,11 +30,19 @@
           <a href="https://twitter.com/Alexpham688" target="_blank"><img src="img/twitter.jpg" alt="twitter logo"></a>
         </div>
       </div>
-          <h2>HI I'M ALEX</h2>
+          <div class="">
+            <ng-view></ng-view>
+
+          </div>
 
     </div>
 
+
+    <script src="lib/angular.min.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="app.js"></script>
     <script src="script.js" charset='utf-8'> </script>
+
   </body>
 </html>

@@ -77,7 +77,7 @@ h3 {
 .navItem {
   font-weight: 200px;
   font-family: helvetica times serif;
-  color:#6F87C4;
+  color:#C0C4E3;
   padding: 15px 0;
   box-sizing: border-box;
   font-size: 1.2em;
@@ -124,8 +124,12 @@ img:hover {
   background-color: pink;
   color:#111;
   transition: all 0.3s ease-in-out;
-
 }
+a:hover {
+  color: #C0C4E3;
+  transition: all 0.3s ease-in-out;
+}
+
 
 body{
   background-image:url("img/mountain.jpg");

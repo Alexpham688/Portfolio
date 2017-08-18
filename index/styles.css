@@ -34,7 +34,7 @@
   opacity:1;
 }
 .boxed {
-  font-family: helvetica times serif;
+  font-family: "palatino", times, serif;
   font-weight: 200;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -76,7 +76,7 @@ h3 {
 }
 .navItem {
   font-weight: 200px;
-  font-family: helvetica times serif;
+  font-family: "palatino", times, serif;
   color:#C0C4E3;
   padding: 15px 0;
   box-sizing: border-box;
@@ -85,7 +85,6 @@ h3 {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   list-style-type: none;
-
 }
 .navItem:hover {
   color:#111;
@@ -104,7 +103,7 @@ h3 {
 h2 {
   font-size: 5em;
   font-weight:200;
-  font-family: helvetica times serif;
+  font-family: "palatino", times, serif;
   text-align: center;
   color: #BECEF7;
   margin: 0 auto;
@@ -126,8 +125,9 @@ img:hover {
   transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: #C0C4E3;
+  color: #7DA3FC;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 

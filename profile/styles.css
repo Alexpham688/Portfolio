@@ -1,0 +1,52 @@
+body {
+  background: url('img/tech.jpg');
+  background-size: cover;
+}
+h1 {
+  font-family: "palatino",times, serif;
+  font-size: 2em;
+  text-align: center;
+  color: #ccc;
+}
+nav {
+  width: 400px;
+  height: 70px;
+  margin-left: 300px;
+  color: #ccc;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #7DA3FC;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  padding-left: 10px;
+  color: #ccc;
+}
+.project1 {
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
+}
+.one {
+  width: 180px;
+  height: 180px;
+  color: #ccc;
+  text-align: center;
+  display: inline;
+  float: left;
+  font-size: 1.2em;
+  font-family: "palatino",times, serif;
+  margin-left: 90px;
+
+}
+.project2 {
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
+}
+img {
+  border-radius: 10px;
+  border: 2px solid orange;
+}

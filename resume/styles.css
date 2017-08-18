@@ -1,0 +1,33 @@
+.resume {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "palatino", times, serif;
+  color: #000;
+}
+#resumeContainer {
+  margin: 0 auto;
+  width: 780px;
+  height: 650px;
+  position: relative;
+
+}
+.resumeNav {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  font-family: "palatino", times, serif;
+
+}
+.resumeNav a {
+  padding-left: 10px;
+  color:#eee;
+  cursor: pointer;
+}
+.resumeNav a:hover {
+  color: #7DA3FC;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  background: url(img/tree.jpg);
+  background-size: cover;
+}

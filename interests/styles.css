@@ -1,0 +1,43 @@
+body {
+  background: url("img/show.jpg");
+  background-size: cover;
+}
+.interContainer {
+  margin: 0 auto;
+  font-family: "palatino", times, serif;
+}
+h1 {
+  font-size: 2em;
+  font-family: "palatino", times, serif;
+  text-align: center;
+  color: #ccc;
+}
+nav {
+  height: 50px;
+  width: 400px;
+  margin-left: 300px;
+  color: #ccc;
+
+}
+nav a:hover {
+  color: #7DA3FC;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  font-size: 1.5em;
+  font-family: "palatino", times, serif;
+  padding-left: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+.text {
+  font-size: 1em;
+  font-family: "palatino",times, serif;
+  width: 500px;
+  height: 140px;
+  margin-top: 400px;
+  margin-left: 30px;
+  line-height: 20px;
+  border: 2px solid #ccc;
+  padding-left: 5px;
+}

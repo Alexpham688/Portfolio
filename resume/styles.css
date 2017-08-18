@@ -2,20 +2,18 @@
   text-align: center;
   font-weight: bold;
   font-size: 2em;
-  font-family: "palatino", times, serif;
   color: #000;
 }
 #resumeContainer {
   margin: 0 auto;
   width: 780px;
-  height: 650px;
+  height: auto;
   position: relative;
 
 }
 .resumeNav {
   font-size: 1.5em;
   padding-bottom: 10px;
-  font-family: "palatino", times, serif;
 
 }
 .resumeNav a {
@@ -23,11 +21,111 @@
   color:#eee;
   cursor: pointer;
 }
-.resumeNav a:hover {
+body {
+  background: url(img/resume.jpg);
+  background-size: cover;
+  font-family: "palatino", times, serif;
+}
+.resumeForm {
+  width: 800px;
+  height: 1100px;
+  border: 2px solid #aaa;
+  margin-left: 0 auto;
+  background-color: #C6C6C6;
+}
+.links {
+  margin: 0 auto;
+  text-align: center;
+  width: 830px;
+  height: 40px;
+  margin-left: 30px;
+}
+.link {
+  display: inline;
+  float: left;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  margin-top: 30px;
+}
+.link1 {
+  height: 60px;
+  width: 700px;
+  margin: 0 auto;
+  border-bottom: 2px solid #111;
+  padding-bottom: 10px;
+}
+.link1 a {
+  margin-left: 233px;
+
+}
+.header {
+  width: 700px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+a:hover {
   color: #7DA3FC;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
-body {
-  background: url(img/tree.jpg);
-  background-size: cover;
+a {
+  color: #eee;
+}
+.summary {
+  border-bottom: 2px solid #111;;
+  height: 130px;
+  width: 700px;
+  margin: 0 auto;
+  padding-left: 10px;
+  color: #111;
+  line-height: 1.2em;
+}
+.summary h3 {
+  text-align: center;
+}
+h3 {
+  color: #000;
+}
+.educ {
+  height: 100px;
+  width: 300px;
+  line-height: .6em;
+  padding-left: 60px;
+}
+.educ h3 {
+  margin-left: 30px;
+}
+.educ1 {
+  height: 100px;
+  width: 300px;
+  line-height: .6em;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+.educ2 {
+  height: 100px;
+  width: 300px;
+  margin-top: 20px;
+  padding-left: 60px;
+  margin-top: 100px;
+}
+.educ2 h3 {
+  margin-left: 30px;
+}
+.educ2 li{
+  margin-top: 7px;
+  margin-left: -20px;
+}
+.jobs {
+  height: 250px;
+  width: 350px;
+  float: right;
+  position: relative;
+  margin-top: -442px;
+  line-height: 1.2em;
+}
+.jobs h3 {
+  margin-left: 30px;
 }

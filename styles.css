@@ -134,6 +134,7 @@ a:hover {
 body{
   background-image:url("img/mountain.jpg");
   background-size:cover;
+  background-repeat: no-repeat;
 }
 .boxed_item_smaller:hover{
   background-color: white;

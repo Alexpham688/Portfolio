@@ -25,6 +25,7 @@ body {
   background: url(img/resume.jpg);
   background-size: cover;
   font-family: "palatino", times, serif;
+  background-repeat: no-repeat;
 }
 .resumeForm {
   width: 800px;

@@ -1,6 +1,7 @@
 body {
   background: url("img/show.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .interContainer {
   margin: 0 auto;

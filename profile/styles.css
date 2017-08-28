@@ -1,7 +1,6 @@
 body {
   background: url('img/tech.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
 }
 h1 {
   font-family: "palatino",times, serif;
@@ -28,7 +27,7 @@ a {
 .project1 {
   width: 900px;
   height: 250px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .one {
   width: 180px;
@@ -45,9 +44,14 @@ a {
 .project2 {
   width: 900px;
   height: 250px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 img {
   border-radius: 10px;
   border: 2px solid orange;
+}
+.project3 {
+  width: 900px;
+  height: 250px;
+  margin: 20px auto;
 }

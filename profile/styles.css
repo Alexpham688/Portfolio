@@ -55,3 +55,13 @@ img {
   height: 250px;
   margin: 20px auto;
 }
+@media (max-width: 800px) {
+  #container {
+  width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  #container {
+    width:48%;
+  }
+}
